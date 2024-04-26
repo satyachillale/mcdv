@@ -1,0 +1,12 @@
+INFO - main.py - 2024-04-26 11:54:28,661 - Using device: cpu
+INFO - main.py - 2024-04-26 11:54:28,662 - Namespace(ckpt=None, command='python main.py --config configs/next_frame_DDPM_big11v1-cont.yml --data_path ../../dataset-2 --exp next-frame-big-11v-1-out --ni --config_mod', comment='', config='configs/next_frame_DDPM_big11v1-cont.yml', config_mod=[], data_path='../../dataset-2', end_ckpt=None, exp='next-frame-big-11v-1-out', fast_fid=False, feats_dir='/Users/satyachillale/Library/CloudStorage/OneDrive-nyu.edu/NYU/Courses/DeepLearning/project/Conditional-Diffusion-Model-for-Next-Frame-Generation/src/mcvd/datasets', fid_batch_size=1000, fid_num_samples=None, final_only=None, freq=None, image_folder='images', interact=False, log_path='next-frame-big-11v-1-out/logs', ni=True, no_ema=False, no_pr=False, pr_nn_k=None, resume_training=False, sample=False, seed=1234, start_at=0, stats_dir='/Users/satyachillale/Library/CloudStorage/OneDrive-nyu.edu/NYU/Courses/DeepLearning/project/Conditional-Diffusion-Model-for-Next-Frame-Generation/src/mcvd/datasets', stats_download=False, subsample=None, test=False, verbose='info', video_folder='videos', video_gen=False)
+INFO - main.py - 2024-04-26 11:54:28,662 - Writing log file to next-frame-big-11v-1-out/logs
+INFO - main.py - 2024-04-26 11:54:28,662 - Exp instance id = 18873
+INFO - main.py - 2024-04-26 11:54:28,662 - Exp comment = 
+INFO - main.py - 2024-04-26 11:54:28,662 - Config =
+INFO - main.py - 2024-04-26 11:54:28,665 - Args =
+INFO - ncsn_runner.py - 2024-04-26 11:54:29,604 - Number of parameters: 62401731
+INFO - ncsn_runner.py - 2024-04-26 11:54:29,605 - Number of trainable parameters: 62401731
+INFO - ncsn_runner.py - 2024-04-26 11:54:29,605 - Running on CPU!
+INFO - ncsn_runner.py - 2024-04-26 11:54:59,907 - elapsed: 0:00:30.170, train time: 0.0076, mem: 4.912GB, GPUmem: 0.000GB, step: 1, lr: 0.000000, grad: 69618.1875, loss: 24555.7578
+INFO - ncsn_runner.py - 2024-04-26 11:55:05,284 - elapsed: 0:00:35.547, step: 1, mem: 6.828GB, GPUmem: 0.000GB, test_loss: 24589.7598

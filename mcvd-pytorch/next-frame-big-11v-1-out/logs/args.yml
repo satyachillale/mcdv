@@ -1,0 +1,33 @@
+ckpt: null
+command: python main.py --config configs/next_frame_DDPM_big11v1-cont.yml --data_path
+  ../../dataset-2 --exp next-frame-big-11v-1-out --ni --config_mod
+comment: ''
+config: configs/next_frame_DDPM_big11v1-cont.yml
+config_mod: []
+data_path: ../../dataset-2
+end_ckpt: null
+exp: next-frame-big-11v-1-out
+fast_fid: false
+feats_dir: /Users/satyachillale/Library/CloudStorage/OneDrive-nyu.edu/NYU/Courses/DeepLearning/project/Conditional-Diffusion-Model-for-Next-Frame-Generation/src/mcvd/datasets
+fid_batch_size: 1000
+fid_num_samples: null
+final_only: null
+freq: null
+image_folder: images
+interact: false
+log_path: next-frame-big-11v-1-out/logs
+ni: true
+no_ema: false
+no_pr: false
+pr_nn_k: null
+resume_training: false
+sample: false
+seed: 1234
+start_at: 0
+stats_dir: /Users/satyachillale/Library/CloudStorage/OneDrive-nyu.edu/NYU/Courses/DeepLearning/project/Conditional-Diffusion-Model-for-Next-Frame-Generation/src/mcvd/datasets
+stats_download: false
+subsample: null
+test: false
+verbose: info
+video_folder: videos
+video_gen: false
